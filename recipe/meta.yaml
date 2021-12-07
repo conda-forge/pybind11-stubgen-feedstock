@@ -1,5 +1,5 @@
 {% set name = "pybind11-stubgen" %}
-{% set version = "0.9" %}
+{% set version = "0.9.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybind11-stubgen-{{ version }}.tar.gz
-  sha256: 376c6d514161e07de61ca044b9933acdf830a43dbde5cd6a0ea9bf58e4f916ed
+  sha256: c97fab1f9cd3b726c8e9999645c12a1eefcf4591e2a7d3dfc6ef2a0838404ab2
 
 build:
   number: 0
