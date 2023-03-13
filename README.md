@@ -1,11 +1,11 @@
-About pybind11-stubgen
-======================
+About pybind11-stubgen-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pybind11-stubgen-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/sizmailov/pybind11-stubgen
 
 Package license: BSD-Protection
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pybind11-stubgen-feedstock/blob/main/LICENSE.txt)
 
 Summary: PEP 561 type stubs generator for pybind11 modules
 
