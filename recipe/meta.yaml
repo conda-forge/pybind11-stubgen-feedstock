@@ -1,5 +1,5 @@
 {% set name = "pybind11-stubgen" %}
-{% set version = "2.2.1" %}
+{% set version = "2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/sizmailov/pybind11-stubgen/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b1b1534a566f0e7b9efdb6efb1b0e4ba0ba24b84d09e55cd19c224f559f9ce77
+  sha256: 59e4a553ae8b5c39f5beb5f482834f3146033a975b243ad337d257eeb8efe43b
 
 build:
   number: 0
