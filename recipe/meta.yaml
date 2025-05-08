@@ -10,7 +10,7 @@ source:
   sha256: 5651ce8f598f304e25db0d69382e46d4ff16538039cb677c444b9c1c3875aaf1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - pybind11-stubgen = pybind11_stubgen.__init__:main
@@ -19,9 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.4
+    - python {{ python_min }}
+    - setuptools
   run:
-    - python >=3.4
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -30,6 +31,7 @@ test:
     - pip check
     - pybind11-stubgen --help
   requires:
+    - python {{ python_min }}
     - pip
 
 about:
