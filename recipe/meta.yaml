@@ -1,6 +1,5 @@
 {% set name = "pybind11-stubgen" %}
 {% set version = "2.5.3" %}
-{% set python_min = "3.7" %}
 
 package:
   name: {{ name|lower }}
