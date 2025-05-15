@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@allanleal](https://github.com/allanleal/)
+* [@ken-lauer](https://github.com/ken-lauer/)
 
